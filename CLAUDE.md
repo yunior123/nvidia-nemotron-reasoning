@@ -8,7 +8,7 @@
 - Eval: accuracy via `\boxed{}` answer extraction, tolerance 10^-2
 
 ## Constraints
-- 8GB local RAM — ALL training on Kaggle/Google Cloud, NOT local
+- 8GB local RAM — ALL training on Kaggle notebooks or Google Colab, NOT local Mac
 - vLLM inference: temp=0.0, max_tokens=7680, max_model_len=8192
 - Model: Nemotron-3-Nano-30B-A3B (hybrid Mamba-Transformer MoE)
 
